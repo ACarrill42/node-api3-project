@@ -1,6 +1,6 @@
 const express = require('express');
 const userRouter = require('./users/users-router');
-const middleware = require('./middleware/middleware');
+// const middleware = require('./middleware/middleware');
 const server = express();
 
 // remember express by default cannot parse JSON in request bodies
